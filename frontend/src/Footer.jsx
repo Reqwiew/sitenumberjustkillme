@@ -6,10 +6,12 @@ export default function Footer() {
             <div className="container13">
                 <h1>Become a contributor?</h1>
                 <p>Join us and get tips & tricks to become a great Designer and Developer</p>
-                <div className="email">
-                    <input type="text" placeholder="Enter your email..."/>
-                    <button>Join Us</button>
-                </div>
+                <form method="POST" className="BecomeContributorInput">
+                    <input type="text" placeholder="Enter your name..."/>
+                    <input type="tel" placeholder="Enter your phone..."/>
+                    <input type="email" placeholder="Enter your email..."/>
+                    <button type="submit">Join Us</button>
+                </form>
             </div>
 
             <div className="container15">

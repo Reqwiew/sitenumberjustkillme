@@ -65,7 +65,10 @@ export default function NewComer() {
                         />
                     </div>
 
+
                 </div>
+
+
             </div>
         </>
     )
